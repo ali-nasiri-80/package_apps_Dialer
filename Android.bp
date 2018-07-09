@@ -339,6 +339,7 @@ android_app {
     product_specific: true,
     required: [
         "privapp_whitelist_com.android.dialer",
+        "privapp_whitelist_com.android.dialer-ext.xml",
     ],
     uses_libs: ["org.apache.http.legacy"],
 }
@@ -369,4 +370,12 @@ java_plugin {
     static_libs: ["dialer-rootcomponentprocessor"],
     processor_class: "com.android.dialer.rootcomponentgenerator.RootComponentProcessor",
     visibility: ["//packages/apps/Dialer"],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.android.dialer-ext.xml",
+    filename: "privapp_whitelist_com.android.dialer-ext.xml",
+    src: "privapp_whitelist_com.android.dialer-ext.xml",
+    sub_dir: "permissions",
+    product_specific: true,
 }
