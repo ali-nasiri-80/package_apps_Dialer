@@ -29,7 +29,7 @@
 
     <string name="unknown_helpline_name">Unknown organization</string>
 
-    <string name="helpline_name">Name</string>
+    <string name="helplines_name">Name</string>
     <string name="helpline_org">Organization</string>
     <string name="helpline_categories">Categories</string>
     <string name="helpline_number">Number</string>

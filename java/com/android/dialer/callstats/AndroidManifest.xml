@@ -19,7 +19,7 @@
   <application>
 
     <activity android:name=".callstats.CallStatsDetailActivity"
-      android:label="@string/call_stats_detail_title"
+      android:label="@lmodroid_string/call_stats_detail_title"
       android:theme="@style/Dialer.ThemeBase.NoActionBar"
       android:exported="true"
       android:screenOrientation="portrait">

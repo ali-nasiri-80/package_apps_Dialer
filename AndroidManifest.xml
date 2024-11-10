@@ -125,12 +125,8 @@
     android:appCategory="social"
     android:supportsRtl="true"
     android:usesCleartextTraffic="false"
-<<<<<<< HEAD
-    android:extractNativeLibs="true">
-=======
-    android:extractNativeLibs="false"
+    android:extractNativeLibs="true"
     android:requestLegacyExternalStorage="true">
->>>>>>> 9fc7ab914... Re-add call recording.
   </application>
 
 </manifest>
