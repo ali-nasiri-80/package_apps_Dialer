@@ -136,10 +136,10 @@ public class HelplineActivity extends Activity {
                 .apply();
 
         new AlertDialog.Builder(this)
-                .setTitle(R.string.helplines_help_title)
-                .setMessage(R.string.helplines_help_message)
-                .setPositiveButton(android.R.string.ok, null)
-                .setNeutralButton(R.string.helpline_button_more, (dialog, which) -> {
+                .setTitle(R.strings.helplines_help_title)
+                .setMessage(R.strings.helplines_help_message)
+                .setPositiveButton(android.R.strings.ok, null)
+                .setNeutralButton(R.strings.helpline_button_more, (dialog, which) -> {
                     showMoreInfo(); })
                 .show();
     }
